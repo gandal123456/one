@@ -1,0 +1,272 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart;add-a-product-to-the-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Add a Product to the cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2365474799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 669186500
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate on \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 433548100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enter username as \"standard_user\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60832500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 174200100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 285457399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user click on Add to cart as for Sauce Labs Backpack",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 200048800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user click on the cart icon",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43268599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "product added in the cart",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 987865899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart;remove-a-product-from-the-cart",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Remove a Product from the cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2167612999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 522747800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate on \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 342238799
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enter username as \"standard_user\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 62880699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 220149599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 338098500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user click on Add to cart as for Sauce Labs Backpack",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 315940899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user click on the cart icon",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 224416400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user click on remove",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:25"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37082200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the product removed from the cart",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:30"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 944405399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Shopping Cart",
+    "tags": [],
+    "uri": "src\\features\\cart.feature"
+  }
+]
